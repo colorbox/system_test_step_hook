@@ -34,14 +34,14 @@ module SystemTestStepHook
   end
 end
 
-module ::Minitest
+module Minitest
   class Test < Runnable
     def run
       with_info_handler do
         time_it do
           capture_exceptions do
             SETUP_METHODS.each do |hook|
-              self.send hooku
+              self.send hook
             end
 
             if is_a?(ActionDispatch::SystemTestCase)
