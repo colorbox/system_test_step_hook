@@ -20,7 +20,19 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-Add before/after block in your 
+Add before/after block in your system test.
+
+```
+SystemTestStepHook.before do
+  puts 'before output'
+end
+
+SystemTestStepHook.after do
+  puts 'after output'
+end
+```
+
+These block execute on each line before and after in system test.
 
 ## Development
 

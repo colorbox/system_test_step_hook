@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["colorbox"]
   spec.email = ["colorbox222@gmail.com"]
 
-  spec.summary = 'You can add a step hook like a turnip for system test'
+  spec.summary = 'You can add a before/after hook in a system test for each line'
   spec.description = 'You can add a step hook like a turnip for system test'
   spec.homepage = 'https://github.com/colorbox/system_test_step_hook'
   spec.license = "MIT"
