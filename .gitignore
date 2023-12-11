@@ -6,3 +6,4 @@
 /pkg/
 /spec/reports/
 /tmp/
+/system_test_step_hook*.gem
